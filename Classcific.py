@@ -14,7 +14,7 @@ st.title("🔥 Sales Data Random Forest Classifier 🔥")
 # Step 1: Load Dataset & Model
 # -----------------------------
 # Load dataset (to get feature names and types)
-df = pd.read_csv(r'h:\SpeclizationTraingClass\sales_dataRFC.csv')
+df = pd.read_csv('sales_dataRFC.csv')
 st.subheader("Dataset Preview")
 st.dataframe(df.head())
 
